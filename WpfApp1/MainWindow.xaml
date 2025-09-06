@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" VerticalAlignment="Top"  Margin="10">
+                <TextBlock Canvas.Left="10" Canvas.Top="10" Text="Последние документы" Height="20" Margin="5"/>
+                <Button Canvas.Left="20" Canvas.Top="30" Content="Открыть" Width="80" Height="20" Margin="5"/>
+                <Button Canvas.Left="95" Canvas.Top="30" Content="Сохранить" Width="80" Height="20" Margin="5"/>
+                <Button Canvas.Left="180" Canvas.Top="30" Content="Закрыть" Width="80" Height="20" Margin="5" />
+                <Button Canvas.Left="265" Canvas.Top="30" Content="Обработать" Width="80" Height="20" Margin="5"/>
+                <Button Canvas.Left="350" Canvas.Top="30" Content="Спрограмме" Width="80" Height="20" Margin="5"/>
+
+
+            </StackPanel>
+
+
+            <StackPanel DockPanel.Dock="Left" Orientation="Vertical" Margin="5">
+                <Button Content="1.txt" Margin="10,0" Width="80" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+                <Button Content="1.txt" Margin="10,0" Width="80" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+                <Button Content="3.txt" Margin="10,0" Width="80" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+                <Button Content="4.txt" Margin="10,0" Width="80" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+                <Button Content="5.txt" Margin="10,0" Width="80" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+                <Button Content="6.txt" Margin="10,0" Width="80" Background="Transparent" BorderBrush="Transparent" BorderThickness="0"/>
+            </StackPanel>
+            <WrapPanel Margin="5">
+                <Label Content="A" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Background="Yellow" Width="50" Height="50" Margin="5"/>
+                <Label Content="B" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Background="Red" Width="50" Height="50" Margin="5"/>
+                <Label Content="C" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Background="Green" Width="50" Height="50" Margin="5"/>
+                <Label Content="D" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Background="Blue" Width="50" Height="50" Margin="5"/>
+                <Label Content="E" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Background="Gray" Width="50" Height="50" Margin="5"/>
+                <Label Content="F" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center" Background="beige" Width="50" Height="50" Margin="5"/>
+
+            </WrapPanel>
+
+        </DockPanel>
+    </Grid>
+</Window>
